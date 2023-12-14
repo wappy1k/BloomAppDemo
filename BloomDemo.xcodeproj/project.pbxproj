@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A88C87202B2490990054BAB4 /* BloomDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C871F2B2490990054BAB4 /* BloomDemoApp.swift */; };
+		A88C87222B2490990054BAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87212B2490990054BAB4 /* ContentView.swift */; };
+		A88C87242B2490A20054BAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88C87232B2490A20054BAB4 /* Assets.xcassets */; };
+		A88C87272B2490A20054BAB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88C87262B2490A20054BAB4 /* Preview Assets.xcassets */; };
+		A88C87292B2490A20054BAB4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87282B2490A20054BAB4 /* Persistence.swift */; };
+		A88C872C2B2490A20054BAB4 /* BloomDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A88C872A2B2490A20054BAB4 /* BloomDemo.xcdatamodeld */; };
+		A88C87332B2491DF0054BAB4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87322B2491DF0054BAB4 /* SignInView.swift */; };
+		A88C87372B24937A0054BAB4 /* BTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87362B24937A0054BAB4 /* BTextField.swift */; };
+		A88C873A2B24974C0054BAB4 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87392B24974C0054BAB4 /* AuthViewModel.swift */; };
+		A88C873D2B2498D30054BAB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C873C2B2498D30054BAB4 /* Constants.swift */; };
+		A88C87402B249BF70054BAB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C873F2B249BF70054BAB4 /* HomeView.swift */; };
+		A88C87422B249D960054BAB4 /* BButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87412B249D960054BAB4 /* BButton.swift */; };
+		A88C87442B249FD90054BAB4 /* CBTMethodCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87432B249FD90054BAB4 /* CBTMethodCellView.swift */; };
+		A88C87472B24A05B0054BAB4 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87462B24A05B0054BAB4 /* ExerciseModel.swift */; };
+		A88C87492B24A0810054BAB4 /* CBTMethodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87482B24A0810054BAB4 /* CBTMethodModel.swift */; };
+		A88C874C2B24A4AE0054BAB4 /* CBTMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C874B2B24A4AE0054BAB4 /* CBTMethodView.swift */; };
+		A88C874E2B2544520054BAB4 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C874D2B2544520054BAB4 /* ExercisesView.swift */; };
+		A88C87522B2544740054BAB4 /* ExerciseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87512B2544740054BAB4 /* ExerciseCellView.swift */; };
+		A88C87542B2556FF0054BAB4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87532B2556FF0054BAB4 /* SettingsView.swift */; };
+		A88C87572B2557770054BAB4 /* SettingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87562B2557770054BAB4 /* SettingCellView.swift */; };
+		A88C87592B2558FB0054BAB4 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C87582B2558FB0054BAB4 /* SettingModel.swift */; };
+		A88C875B2B2565340054BAB4 /* CBTMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C875A2B2565340054BAB4 /* CBTMethodViewModel.swift */; };
+		A88C875D2B26CF440054BAB4 /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C875C2B26CF440054BAB4 /* ExerciseDetailsView.swift */; };
+		A88C875F2B26D6940054BAB4 /* ExerciseProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C875E2B26D6940054BAB4 /* ExerciseProcessView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A88C871C2B2490990054BAB4 /* BloomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88C871F2B2490990054BAB4 /* BloomDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomDemoApp.swift; sourceTree = "<group>"; };
+		A88C87212B2490990054BAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A88C87232B2490A20054BAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A88C87262B2490A20054BAB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A88C87282B2490A20054BAB4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A88C872B2B2490A20054BAB4 /* BloomDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BloomDemo.xcdatamodel; sourceTree = "<group>"; };
+		A88C87322B2491DF0054BAB4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A88C87362B24937A0054BAB4 /* BTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTextField.swift; sourceTree = "<group>"; };
+		A88C87392B24974C0054BAB4 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A88C873C2B2498D30054BAB4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A88C873F2B249BF70054BAB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A88C87412B249D960054BAB4 /* BButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BButton.swift; sourceTree = "<group>"; };
+		A88C87432B249FD90054BAB4 /* CBTMethodCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTMethodCellView.swift; sourceTree = "<group>"; };
+		A88C87462B24A05B0054BAB4 /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		A88C87482B24A0810054BAB4 /* CBTMethodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTMethodModel.swift; sourceTree = "<group>"; };
+		A88C874B2B24A4AE0054BAB4 /* CBTMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTMethodView.swift; sourceTree = "<group>"; };
+		A88C874D2B2544520054BAB4 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
+		A88C87512B2544740054BAB4 /* ExerciseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCellView.swift; sourceTree = "<group>"; };
+		A88C87532B2556FF0054BAB4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A88C87562B2557770054BAB4 /* SettingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellView.swift; sourceTree = "<group>"; };
+		A88C87582B2558FB0054BAB4 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		A88C875A2B2565340054BAB4 /* CBTMethodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTMethodViewModel.swift; sourceTree = "<group>"; };
+		A88C875C2B26CF440054BAB4 /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
+		A88C875E2B26D6940054BAB4 /* ExerciseProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseProcessView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88C87192B2490990054BAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88C87132B2490990054BAB4 = {
+			isa = PBXGroup;
+			children = (
+				A88C871E2B2490990054BAB4 /* BloomDemo */,
+				A88C871D2B2490990054BAB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A88C871D2B2490990054BAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A88C871C2B2490990054BAB4 /* BloomDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A88C871E2B2490990054BAB4 /* BloomDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87452B24A02E0054BAB4 /* Model */,
+				A88C873B2B2498CA0054BAB4 /* Helpers */,
+				A88C87382B24973F0054BAB4 /* ViewModels */,
+				A88C871F2B2490990054BAB4 /* BloomDemoApp.swift */,
+				A88C87342B2491ED0054BAB4 /* Views */,
+				A88C87232B2490A20054BAB4 /* Assets.xcassets */,
+				A88C87282B2490A20054BAB4 /* Persistence.swift */,
+				A88C872A2B2490A20054BAB4 /* BloomDemo.xcdatamodeld */,
+				A88C87252B2490A20054BAB4 /* Preview Content */,
+			);
+			path = BloomDemo;
+			sourceTree = "<group>";
+		};
+		A88C87252B2490A20054BAB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87262B2490A20054BAB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A88C87342B2491ED0054BAB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87212B2490990054BAB4 /* ContentView.swift */,
+				A88C874A2B24A4A20054BAB4 /* Cells */,
+				A88C87352B2493590054BAB4 /* Custom Views */,
+				A88C873E2B249BEB0054BAB4 /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A88C87352B2493590054BAB4 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87362B24937A0054BAB4 /* BTextField.swift */,
+				A88C87412B249D960054BAB4 /* BButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		A88C87382B24973F0054BAB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87392B24974C0054BAB4 /* AuthViewModel.swift */,
+				A88C875A2B2565340054BAB4 /* CBTMethodViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A88C873B2B2498CA0054BAB4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A88C873C2B2498D30054BAB4 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A88C873E2B249BEB0054BAB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87322B2491DF0054BAB4 /* SignInView.swift */,
+				A88C873F2B249BF70054BAB4 /* HomeView.swift */,
+				A88C874D2B2544520054BAB4 /* ExercisesView.swift */,
+				A88C87532B2556FF0054BAB4 /* SettingsView.swift */,
+				A88C875C2B26CF440054BAB4 /* ExerciseDetailsView.swift */,
+				A88C875E2B26D6940054BAB4 /* ExerciseProcessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A88C87452B24A02E0054BAB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87462B24A05B0054BAB4 /* ExerciseModel.swift */,
+				A88C87482B24A0810054BAB4 /* CBTMethodModel.swift */,
+				A88C87582B2558FB0054BAB4 /* SettingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A88C874A2B24A4A20054BAB4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87552B25576B0054BAB4 /* Settings */,
+				A88C87502B2544630054BAB4 /* Exercises */,
+				A88C874F2B25445B0054BAB4 /* CBTMethods */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A88C874F2B25445B0054BAB4 /* CBTMethods */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87432B249FD90054BAB4 /* CBTMethodCellView.swift */,
+				A88C874B2B24A4AE0054BAB4 /* CBTMethodView.swift */,
+			);
+			path = CBTMethods;
+			sourceTree = "<group>";
+		};
+		A88C87502B2544630054BAB4 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87512B2544740054BAB4 /* ExerciseCellView.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		A88C87552B25576B0054BAB4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A88C87562B2557770054BAB4 /* SettingCellView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A88C871B2B2490990054BAB4 /* BloomDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88C872F2B2490A20054BAB4 /* Build configuration list for PBXNativeTarget "BloomDemo" */;
+			buildPhases = (
+				A88C87182B2490990054BAB4 /* Sources */,
+				A88C87192B2490990054BAB4 /* Frameworks */,
+				A88C871A2B2490990054BAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloomDemo;
+			productName = BloomDemo;
+			productReference = A88C871C2B2490990054BAB4 /* BloomDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A88C87142B2490990054BAB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A88C871B2B2490990054BAB4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A88C87172B2490990054BAB4 /* Build configuration list for PBXProject "BloomDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A88C87132B2490990054BAB4;
+			productRefGroup = A88C871D2B2490990054BAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A88C871B2B2490990054BAB4 /* BloomDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A88C871A2B2490990054BAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88C87272B2490A20054BAB4 /* Preview Assets.xcassets in Resources */,
+				A88C87242B2490A20054BAB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A88C87182B2490990054BAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88C875F2B26D6940054BAB4 /* ExerciseProcessView.swift in Sources */,
+				A88C87402B249BF70054BAB4 /* HomeView.swift in Sources */,
+				A88C875B2B2565340054BAB4 /* CBTMethodViewModel.swift in Sources */,
+				A88C872C2B2490A20054BAB4 /* BloomDemo.xcdatamodeld in Sources */,
+				A88C87292B2490A20054BAB4 /* Persistence.swift in Sources */,
+				A88C874E2B2544520054BAB4 /* ExercisesView.swift in Sources */,
+				A88C87522B2544740054BAB4 /* ExerciseCellView.swift in Sources */,
+				A88C87542B2556FF0054BAB4 /* SettingsView.swift in Sources */,
+				A88C87372B24937A0054BAB4 /* BTextField.swift in Sources */,
+				A88C873A2B24974C0054BAB4 /* AuthViewModel.swift in Sources */,
+				A88C87592B2558FB0054BAB4 /* SettingModel.swift in Sources */,
+				A88C874C2B24A4AE0054BAB4 /* CBTMethodView.swift in Sources */,
+				A88C87222B2490990054BAB4 /* ContentView.swift in Sources */,
+				A88C87422B249D960054BAB4 /* BButton.swift in Sources */,
+				A88C87572B2557770054BAB4 /* SettingCellView.swift in Sources */,
+				A88C87472B24A05B0054BAB4 /* ExerciseModel.swift in Sources */,
+				A88C87442B249FD90054BAB4 /* CBTMethodCellView.swift in Sources */,
+				A88C87492B24A0810054BAB4 /* CBTMethodModel.swift in Sources */,
+				A88C87202B2490990054BAB4 /* BloomDemoApp.swift in Sources */,
+				A88C87332B2491DF0054BAB4 /* SignInView.swift in Sources */,
+				A88C873D2B2498D30054BAB4 /* Constants.swift in Sources */,
+				A88C875D2B26CF440054BAB4 /* ExerciseDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A88C872D2B2490A20054BAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A88C872E2B2490A20054BAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A88C87302B2490A20054BAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloomDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagletech.BloomDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A88C87312B2490A20054BAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloomDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagletech.BloomDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A88C87172B2490990054BAB4 /* Build configuration list for PBXProject "BloomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88C872D2B2490A20054BAB4 /* Debug */,
+				A88C872E2B2490A20054BAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88C872F2B2490A20054BAB4 /* Build configuration list for PBXNativeTarget "BloomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88C87302B2490A20054BAB4 /* Debug */,
+				A88C87312B2490A20054BAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A88C872A2B2490A20054BAB4 /* BloomDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A88C872B2B2490A20054BAB4 /* BloomDemo.xcdatamodel */,
+			);
+			currentVersion = A88C872B2B2490A20054BAB4 /* BloomDemo.xcdatamodel */;
+			path = BloomDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A88C87142B2490990054BAB4 /* Project object */;
+}
